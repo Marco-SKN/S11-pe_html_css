@@ -63,9 +63,12 @@ body {
 
 .title {
   margin-top: 130px;
-  padding: 0 100px;
+  padding: 0 300px;
 }
 
+.title h1 {
+  margin-bottom: 15px;
+}
 /* Search bar */
 .search-bar {
   display: flex;
@@ -150,6 +153,26 @@ a {
   border-radius: 50%;
 }
 
+section {
+  margin-top: 50px;
+  padding: 0 300px;
+}
+
+.fire-img {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.fire-img p {
+  text-align: center;
+}
+
+.auntie-img {
+  margin-top: 30px;
+  width: 100%;
+}
+
 /* FOOTER */
 footer {
   height: 100px;
@@ -198,6 +221,16 @@ footer {
   .item-container {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  .title {
+    margin-top: 130px;
+    padding: 0 100px;
+  }
+
+  section {
+    margin-top: 50px;
+    padding: 0 100px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -217,6 +250,16 @@ footer {
     font-size: 1rem;
     color: white;
     padding: 5px 10px;
+  }
+
+  .title {
+    margin-top: 100px;
+    padding: 0 20px;
+  }
+
+  section {
+    margin-top: 30px;
+    padding: 0 20px;
   }
 
   .search-bar {
