@@ -79,7 +79,7 @@ body {
   padding: 0 100px;
 }
 
-.search-bar input[type="text"] {
+.search-bar input[type="search"] {
   height: 50px;
   width: 80%;
   font-size: 1.6rem;
@@ -90,7 +90,7 @@ body {
   background: #d6d6d6;
 }
 
-.search-bar input[type="text"]:focus {
+.search-bar input[type="search"]:focus {
   background: white;
 }
 
