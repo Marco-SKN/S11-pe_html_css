@@ -21,6 +21,8 @@ body {
   background-image: url(../images/s11_background_translucent.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position-x: left;
+  background-position-y: top;
   background-attachment: fixed;
 }
 
